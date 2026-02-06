@@ -1,0 +1,107 @@
+{
+    "welcome": {
+        "headline": "Your healthcare team wants to better understand your needs.",
+        "body": "Answer 10 quick questions about your living situation. Most patients finish in under 5 minutes.",
+        "privacy": "Your answers are confidential and will not affect your eligibility for care.",
+        "startButton": "Start Questions"
+    },
+    "questions": {
+        "q1": "In the past 12 months, have you been homeless or worried about losing your housing?",
+        "q2": "Are you worried about losing your housing in the next 2 months?",
+        "q3": "In the past 12 months, did you ever worry that your food would run out before you had money to buy more?",
+        "q4": "In the past 12 months, has a lack of reliable transportation kept you from medical appointments, meetings, work, or getting things you need?",
+        "q5": "In the past 12 months, has the electric, gas, oil, or water company threatened to shut off services in your home?",
+        "q6": "Are you worried about losing utilities in the next 2 months?",
+        "q7": "Do you feel physically and emotionally safe where you currently live?",
+        "q8": "In the past 12 months, have you been hit, kicked, punched, or otherwise hurt by someone?",
+        "q9": "Are you a refugee or seeking asylum?",
+        "q10": "Would you like your healthcare team to help connect you to local resources?"
+    },
+    "questionSupport": {
+        "general": "Answering honestly helps your care team support you.",
+        "benefits": "This will not affect your benefits.",
+        "sensitiveSkip": "You can skip by choosing 'Prefer not to answer.'",
+        "optional": "This question is optional."
+    },
+    "options": {
+        "yes": "Yes",
+        "no": "No",
+        "preferNotToAnswer": "Prefer not to answer"
+    },
+    "ui": {
+        "progress": "Question {{current}} of {{total}}",
+        "progressRemaining": "Just {{remaining}} more questions",
+        "progressHalfway": "You're halfway there.",
+        "progressMilestone": "You're making great progress.",
+        "progressAlmostDone": "You're almost done.",
+        "back": "Back",
+        "next": "Next",
+        "continue": "Continue",
+        "submit": "Submit",
+        "edit": "Edit",
+        "saving": "Saving...",
+        "saved": "Saved.",
+        "saveFailed": "Unable to save",
+        "loading": "Loading...",
+        "optional": "Optional"
+    },
+    "privacy": {
+        "title": "Some questions may feel personal.",
+        "message": "You can choose 'Prefer not to answer' if you're uncomfortable. Your answers are private and only shared with your healthcare team.",
+        "continue": "Continue"
+    },
+    "demographics": {
+        "title": "Almost done — please confirm your information.",
+        "intro": "We ask this information to better understand and serve our community.",
+        "dob": "Date of Birth",
+        "dobPlaceholder": "MM/DD/YYYY",
+        "age": "Age",
+        "race": "Race",
+        "ethnicity": "Ethnicity",
+        "ethnicityHispanic": "Hispanic or Latino",
+        "ethnicityNotHispanic": "Not Hispanic or Latino",
+        "preferredLanguage": "Preferred Language",
+        "zip": "ZIP Code",
+        "zipPlaceholder": "12345",
+        "zipHelp": "Used to connect you to nearby services."
+    },
+    "race": {
+        "american_indian_alaska_native": "American Indian or Alaska Native",
+        "asian": "Asian",
+        "black_african_american": "Black or African American",
+        "native_hawaiian_pacific_islander": "Native Hawaiian or Other Pacific Islander",
+        "white": "White",
+        "other": "Other",
+        "prefer_not_to_answer": "Prefer not to answer"
+    },
+    "review": {
+        "title": "Review Your Answers",
+        "screeningAnswers": "Your Answers",
+        "demographics": "Your Information",
+        "submitButton": "Submit",
+        "incompleteMessage": "Almost there — please answer the remaining questions.",
+        "missingFields": "Please complete:"
+    },
+    "confirmation": {
+        "title": "Thank you for completing your questions.",
+        "message": "This helps your healthcare team better support you.",
+        "followUp": "If you asked for help, someone may follow up with you.",
+        "closeMessage": "You can close this window."
+    },
+    "errors": {
+        "invalidToken": "This screening link is invalid. Please contact your clinic.",
+        "expiredToken": "This link has expired. Please contact your clinic for a new link.",
+        "declinedScreening": "You have declined this screening. If this was a mistake, please contact your clinic.",
+        "completedScreening": "This screening has already been completed.",
+        "networkError": "Unable to connect. Please check your internet connection and try again.",
+        "submitError": "Unable to submit. Please check your connection and try again.",
+        "requiredField": "Please select an answer to continue.",
+        "invalidZip": "Please enter a valid 5-digit ZIP code",
+        "invalidDOB": "Please enter a valid date (MM/DD/YYYY)"
+    },
+    "validation": {
+        "required": "Please select an answer to continue.",
+        "invalidZip": "Please enter a valid 5-digit ZIP code",
+        "invalidDOB": "Please enter a valid date in MM/DD/YYYY format"
+    }
+}

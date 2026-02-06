@@ -1,0 +1,107 @@
+{
+    "welcome": {
+        "headline": "Su equipo de atención médica quiere comprender mejor sus necesidades.",
+        "body": "Responda 10 preguntas rápidas sobre su situación de vida. La mayoría de los pacientes terminan en menos de 5 minutos.",
+        "privacy": "Sus respuestas son confidenciales y no afectarán su elegibilidad para recibir atención.",
+        "startButton": "Comenzar Preguntas"
+    },
+    "questions": {
+        "q1": "En los últimos 12 meses, ¿ha estado sin hogar o le ha preocupado perder su vivienda?",
+        "q2": "¿Le preocupa perder su vivienda en los próximos 2 meses?",
+        "q3": "En los últimos 12 meses, ¿alguna vez le preocupó que su comida se acabara antes de tener dinero para comprar más?",
+        "q4": "En los últimos 12 meses, ¿la falta de transporte confiable le ha impedido asistir a citas médicas, reuniones, trabajo u obtener cosas que necesita?",
+        "q5": "En los últimos 12 meses, ¿la compañía de electricidad, gas, petróleo o agua amenazó con cortar los servicios en su hogar?",
+        "q6": "¿Le preocupa perder los servicios públicos en los próximos 2 meses?",
+        "q7": "¿Se siente física y emocionalmente seguro donde vive actualmente?",
+        "q8": "En los últimos 12 meses, ¿alguien le ha golpeado, pateado, dado puñetazos o lastimado de alguna otra manera?",
+        "q9": "¿Es usted refugiado o está solicitando asilo?",
+        "q10": "¿Le gustaría que su equipo de atención médica le ayude a conectarse con recursos locales?"
+    },
+    "questionSupport": {
+        "general": "Responder honestamente ayuda a su equipo de atención a apoyarle.",
+        "benefits": "Esto no afectará sus beneficios.",
+        "sensitiveSkip": "Puede omitir eligiendo 'Prefiero no responder.'",
+        "optional": "Esta pregunta es opcional."
+    },
+    "options": {
+        "yes": "Sí",
+        "no": "No",
+        "preferNotToAnswer": "Prefiero no responder"
+    },
+    "ui": {
+        "progress": "Pregunta {{current}} de {{total}}",
+        "progressRemaining": "Solo {{remaining}} preguntas más",
+        "progressHalfway": "Ya va por la mitad.",
+        "progressMilestone": "Está haciendo un gran progreso.",
+        "progressAlmostDone": "Ya casi termina.",
+        "back": "Atrás",
+        "next": "Siguiente",
+        "continue": "Continuar",
+        "submit": "Enviar",
+        "edit": "Editar",
+        "saving": "Guardando...",
+        "saved": "Guardado.",
+        "saveFailed": "No se pudo guardar",
+        "loading": "Cargando...",
+        "optional": "Opcional"
+    },
+    "privacy": {
+        "title": "Algunas preguntas pueden parecer personales.",
+        "message": "Puede elegir 'Prefiero no responder' si se siente incómodo. Sus respuestas son privadas y solo se comparten con su equipo de atención médica.",
+        "continue": "Continuar"
+    },
+    "demographics": {
+        "title": "Ya casi termina — por favor confirme su información.",
+        "intro": "Pedimos esta información para comprender y servir mejor a nuestra comunidad.",
+        "dob": "Fecha de Nacimiento",
+        "dobPlaceholder": "MM/DD/AAAA",
+        "age": "Edad",
+        "race": "Raza",
+        "ethnicity": "Etnicidad",
+        "ethnicityHispanic": "Hispano o Latino",
+        "ethnicityNotHispanic": "No Hispano o Latino",
+        "preferredLanguage": "Idioma Preferido",
+        "zip": "Código Postal",
+        "zipPlaceholder": "12345",
+        "zipHelp": "Se usa para conectarle con servicios cercanos."
+    },
+    "race": {
+        "american_indian_alaska_native": "Indígena Americano o Nativo de Alaska",
+        "asian": "Asiático",
+        "black_african_american": "Negro o Afroamericano",
+        "native_hawaiian_pacific_islander": "Nativo de Hawái u Otra Isla del Pacífico",
+        "white": "Blanco",
+        "other": "Otro",
+        "prefer_not_to_answer": "Prefiero no responder"
+    },
+    "review": {
+        "title": "Revise Sus Respuestas",
+        "screeningAnswers": "Sus Respuestas",
+        "demographics": "Su Información",
+        "submitButton": "Enviar",
+        "incompleteMessage": "Ya casi — por favor responda las preguntas restantes.",
+        "missingFields": "Por favor complete:"
+    },
+    "confirmation": {
+        "title": "Gracias por completar sus preguntas.",
+        "message": "Esto ayuda a su equipo de atención médica a apoyarle mejor.",
+        "followUp": "Si pidió ayuda, alguien puede comunicarse con usted.",
+        "closeMessage": "Puede cerrar esta ventana."
+    },
+    "errors": {
+        "invalidToken": "Este enlace de evaluación no es válido. Por favor contacte a su clínica.",
+        "expiredToken": "Este enlace ha expirado. Por favor contacte a su clínica para obtener un nuevo enlace.",
+        "declinedScreening": "Ha rechazado esta evaluación. Si fue un error, por favor contacte a su clínica.",
+        "completedScreening": "Esta evaluación ya se ha completado.",
+        "networkError": "No se puede conectar. Por favor verifique su conexión a internet e intente nuevamente.",
+        "submitError": "No se puede enviar. Por favor verifique su conexión e intente nuevamente.",
+        "requiredField": "Por favor seleccione una respuesta para continuar.",
+        "invalidZip": "Por favor ingrese un código postal válido de 5 dígitos",
+        "invalidDOB": "Por favor ingrese una fecha válida (MM/DD/AAAA)"
+    },
+    "validation": {
+        "required": "Por favor seleccione una respuesta para continuar.",
+        "invalidZip": "Por favor ingrese un código postal válido de 5 dígitos",
+        "invalidDOB": "Por favor ingrese una fecha válida en formato MM/DD/AAAA"
+    }
+}

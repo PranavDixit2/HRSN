@@ -1,0 +1,88 @@
+{
+    "questions": {
+        "q1": "在过去的12个月里，您是否无家可归或担心失去住房？",
+        "q2": "您是否担心在未来2个月内失去住房？",
+        "q3": "在过去的12个月里，您是否曾担心在有钱购买更多食物之前食物会用完？",
+        "q4": "在过去的12个月里，缺乏可靠的交通工具是否阻止您参加医疗预约、会议、工作或获取所需物品？",
+        "q5": "在过去的12个月里，电力、天然气、石油或水务公司是否威胁要切断您家中的服务？",
+        "q6": "您是否担心在未来2个月内失去公用事业服务？",
+        "q7": "您在目前居住的地方是否感到身体和情感上的安全？",
+        "q8": "在过去的12个月里，是否有人打过您、踢过您、用拳头打过您或以其他方式伤害过您？",
+        "q9": "您是难民还是正在寻求庇护？",
+        "q10": "您是否需要帮助解决这些需求？"
+    },
+    "options": {
+        "yes": "是",
+        "no": "否",
+        "preferNotToAnswer": "不愿回答"
+    },
+    "ui": {
+        "progress": "问题 {{current}} / {{total}}",
+        "back": "返回",
+        "next": "下一步",
+        "continue": "继续",
+        "submit": "提交",
+        "edit": "编辑",
+        "saving": "保存中...",
+        "saved": "已保存",
+        "saveFailed": "无法保存",
+        "loading": "加载中...",
+        "optional": "可选"
+    },
+    "privacy": {
+        "title": "隐私声明",
+        "message": "接下来的两个问题比较敏感。您的答案是保密的，只会与您的医疗团队分享。",
+        "continue": "继续"
+    },
+    "demographics": {
+        "title": "快完成了 — 请确认您的信息。",
+        "dob": "出生日期",
+        "dobPlaceholder": "MM/DD/YYYY",
+        "age": "年龄",
+        "race": "种族",
+        "ethnicity": "民族",
+        "ethnicityHispanic": "西班牙裔或拉丁裔",
+        "ethnicityNotHispanic": "非西班牙裔或拉丁裔",
+        "preferredLanguage": "首选语言",
+        "zip": "邮政编码",
+        "zipPlaceholder": "12345"
+    },
+    "race": {
+        "american_indian_alaska_native": "美洲印第安人或阿拉斯加原住民",
+        "asian": "亚洲人",
+        "black_african_american": "黑人或非裔美国人",
+        "native_hawaiian_pacific_islander": "夏威夷原住民或其他太平洋岛民",
+        "white": "白人",
+        "other": "其他",
+        "prefer_not_to_answer": "不愿回答"
+    },
+    "review": {
+        "title": "查看您的答案",
+        "screeningAnswers": "筛查答案",
+        "demographics": "您的信息",
+        "submitButton": "提交筛查",
+        "incompleteMessage": "请在提交前完成所有必填字段。",
+        "missingFields": "缺少必填字段："
+    },
+    "confirmation": {
+        "title": "谢谢！",
+        "message": "您的筛查已完成。",
+        "closeMessage": "您可以关闭此窗口。"
+    },
+    "errors": {
+        "invalidToken": "此筛查链接无效。请联系您的诊所。",
+        "expiredToken": "此链接已过期。请联系您的诊所获取新链接。",
+        "declinedScreening": "您已拒绝此筛查。如果这是一个错误，请联系您的诊所。",
+        "completedScreening": "此筛查已完成。",
+        "networkError": "无法连接。请检查您的互联网连接并重试。",
+        "submitError": "无法提交。请检查您的连接并重试。",
+        "requiredField": "此字段为必填项",
+        "invalidZip": "请输入有效的5位邮政编码",
+        "invalidDOB": "请输入有效日期（MM/DD/YYYY）"
+    },
+    "validation": {
+        "required": "此字段为必填项",
+        "invalidZip": "邮政编码必须为5位数字",
+        "invalidDOB": "请以MM/DD/YYYY格式输入有效日期"
+    }
+}
