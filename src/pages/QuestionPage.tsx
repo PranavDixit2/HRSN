@@ -107,7 +107,6 @@ export function QuestionPage({ onComplete }: QuestionPageProps) {
             <div className="flex items-center justify-center px-4 py-8">
                 <QuestionCard
                     questionId={questionId}
-                    questionNumber={currentQuestion}
                     questionText={questionText}
                     options={options}
                     value={value ?? null}

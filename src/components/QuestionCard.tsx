@@ -8,7 +8,6 @@ interface QuestionOption {
 
 interface QuestionCardProps {
     questionId: string;
-    questionNumber: number;
     questionText: string;
     options: QuestionOption[];
     value: YesNoAnswer | SafetyAnswer | RefugeeAnswer | null;
@@ -20,7 +19,6 @@ interface QuestionCardProps {
 
 export function QuestionCard({
     questionId,
-    questionNumber,
     questionText,
     options,
     value,
@@ -78,8 +76,8 @@ export function QuestionCard({
                         <div className="flex items-center w-full">
                             <div
                                 className={`w-5 h-5 rounded-full border-2 flex items-center justify-center mr-3 ${value === option.value
-                                        ? 'border-primary-600 bg-primary-600'
-                                        : 'border-gray-400'
+                                    ? 'border-primary-600 bg-primary-600'
+                                    : 'border-gray-400'
                                     }`}
                             >
                                 {value === option.value && (
